@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!-- Student Name: Sudharsan Rajam  -->
+<html lang="en">
+  <head>
+    <title>A Music Web Application</title>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" src="music.js"></script>
+  </head>
+  <body style="background-color:#7FDBFF;">
+    <form>
+       <label>Artist name: <input type="text" id="form-input"/></label>
+       <input type="button" onclick="sendRequest();" value="Display Info"/>
+    </form>
+    <div id="container">
+      <div id="artist">
+        <!-- Artist metadata -->
+        <div id="image-container">
+          <div>
+            <h1 id="name"></h1>
+          </div>
+          <div>
+            <a href="#" id="webpageurl"></a>
+          </div>
+          <div>
+          <img src="" id="picture" />
+          
+
+        </div>
+        <div>
+        <p id="bio"></p>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  background-color: black;
+  font-family: cursive;
+}
+
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+          p#bio {
+            background-color:#eeff1b;
+            color: black;
+          }
+
+          h1{
+            background-color: #800080;
+          }
+
+          h2{
+            background-color: #800080;
+            
+          }
+         
+          
+          
+          
+body{
+
+  background-image: url('https://cdn.pixabay.com/photo/2017/01/18/17/14/girl-1990347_960_720.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+#top-albums ul {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+
+  #top-albums ul li {
+    width: 10%;
+    padding: 10px;
+    margin: 7px;
+    border: 1px solid teal;
+    list-style: none;
+  }
+
+  #top-albums ul li img {
+    width: 100%;
+  }
+
+  #similar u1 li{
+      list-style-type: style circle;;
+  }
+
+        </style>
+        </div>
+        <!-- Top albums -->
+        <div id="top-albums">
+          <h2></h2>
+          <ul></ul>
+        </div>
+      </div>
+      <!-- Similar artists -->
+      <div id="similar">
+        <h2></h2>
+        <ul></ul>
+      </div>
+    </div>
+  </body>
+</html>
